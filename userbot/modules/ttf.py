@@ -1,5 +1,3 @@
-# wiperowner | Neon
-
 from userbot import bot
 from userbot.events import register
 from userbot.cmdhelp import CmdHelp
@@ -29,8 +27,8 @@ async def get(event):
     await event.delete()
     await bot.send_file(event.chat_id,name,force_document=True)
     
-Help = CmdHelp('doc')
+Help = CmdHelp('ttf')
 Help.add_command('open', '<bir dosya yanıtla>', 'Dosyanın içeriğini okuyun ve Telegram mesajı olarak gönderin.')
 Help.add_command("ttf","<Metin yanıtı> <Dosya adı>","Cavab verdiginiz dosya nın içindeki metni buraya atar.")
-Help.add_info("**@wiperowner**")
+Help.add_info("**@wiperowner neon**")
 Help.add()
