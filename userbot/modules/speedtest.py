@@ -8,8 +8,8 @@ from userbot.cmdhelp import CmdHelp
 import os
 from requests import get
 
-@register(outgoing=True, pattern="^.speedtest$")
-@register(outgoing=True, pattern="^.speed$")
+@register(outgoing=True, pattern="^.cspeedtest$")
+@register(outgoing=True, pattern="^.cspeed$")
 async def cspeedtstimg(spd):
     test = Speedtest()
     MESSAGE = ""
@@ -48,6 +48,6 @@ async def cspeedtstimg(spd):
         await spd.edit(MESSAGE)
 
 
-CmdHelp('speedtest').add_command(
-    'speedtest', None, 'Hız testi yapar ve gelişmiş ve resimli şekilde bilgileri gösterir.'
+CmdHelp('cspeedtest').add_command(
+    'cspeedtest', None, 'Hız testi yapar ve gelişmiş ve resimli şekilde bilgileri gösterir.'
 ).add()
