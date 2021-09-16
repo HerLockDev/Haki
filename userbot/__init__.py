@@ -62,7 +62,7 @@ if LANGUAGE not in ["EN", "TR", "AZ", "UZ", "DEFAULT"]:
     LANGUAGE = "DEFAULT"
     
 # Mia versiyon
-MIA_VERSION = "v0.1"
+MIA_VERSION = "v0.2"
 
 # Telegram API KEY ve HASH
 API_KEY = os.environ.get("API_KEY", None)
