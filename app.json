@@ -93,7 +93,7 @@
     },
     "BOTLOG": {
       "description": "Botla yaptığınız işlemi kaydetmek için bir grup ve bazı pluginleri çalışması için gerekli",
-      "value": "False"
+      "value": "True"
     },
     "BOT_USERNAME": {
       "description": "Inline bot özelliğinin çalışması için gereklidir. Buraya botunuzun kullanıcı adınız yazmanız lazım (Örnek: @SiriBot). Botunuz yok ise @BotFather yardımı ile bot oluşturabilirsiniz.",
