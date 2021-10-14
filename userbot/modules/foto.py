@@ -52,7 +52,7 @@ async def potocmd(event):
                 else:
                     photo = await event.client.download_profile_photo(event.input_chat)
                 await event.client.send_file(event.chat_id, photo)
-                await event.edit(f"Fotoğraflar Rahatlıkla yükləndi ! @MiaPlugin")
+                await event.edit(f"Fotoğraflar Rahatlıkla yükləndi ! @MiaUserBot")
             except a:
                 await event.edit("**Bu userin hiç bir fotoğrafı yok !**")
                 return
