@@ -91,7 +91,7 @@ KICKME_MSG = [
 ]
 
 
-UNAPPROVED_MSG = ("`{mention} Sahibimin emri ile senin onayını kaldırdım👩🏻‍💻!\n\n`"
+UNAPPROVED_MSG = ("`{mention} Sahibim onay verene kadar bu mesajı alacaksın👩🏻‍💻!\n\n`"
                   "`✔️ Onaylı olmadığın sürece her yazdığın mesaja yanıt olarak sahibimin yerine ben mesaj  `"
                   "`atacağım.....\n\n`")
 
